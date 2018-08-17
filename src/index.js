@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 import config from './config';
 import apiRoute from './route/api';
 import responseTime from 'response-time';
+import logger from './lib/logger';
 
 /*import errorHandler from './middleware/errorHandler';
 import notFoundHandler from './middleware/notFoundHandler';*/
